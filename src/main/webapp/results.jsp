@@ -37,7 +37,7 @@
                                            value="${theCount.index}" disabled <c:if test="${theCount.index == results[theList.index]}">checked</c:if>
                                     >
                                     <label class="form-check-label" for="${theCount.index}">
-                                            ${answer} 
+                                            ${answer}
                                     </label>
                                 </div>
                             </c:forEach>
@@ -46,7 +46,6 @@
                     </c:forEach>
 
             </div>
-
         </div>
     </div>
 </div>
